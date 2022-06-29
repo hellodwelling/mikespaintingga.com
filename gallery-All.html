@@ -546,6 +546,14 @@
                                                     </a>
                                                  
                                                     <a
+                                                        href=" gallery-recent "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <p class="mt-1 text-sm text-gray-500">recent</p>
+                                                    </a>
+                                                 
+                                                    <a
                                                         href=" gallery-All "
                                                         role="menuitem"
                                                         class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
@@ -793,6 +801,10 @@
                                                     <p class="mt-1 text-sm text-gray-500">Interior Painting</p>
                                                 </a>
                                             
+                                                <a href="gallery-recent" role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <p class="mt-1 text-sm text-gray-500">recent</p>
+                                                </a>
+                                            
                                                 <a href="gallery-All" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <p class="mt-1 text-sm text-gray-500">All Photos</p>
                                                 </a>
@@ -902,14 +914,14 @@
 <section class="overflow-hidden bg-white">
     <div class="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-24 lg:px-8">
         <h1>
-            <span class="block text-base font-semibold tracking-wide text-center uppercase text-secondary">All Photos</span>
+            <span class="block text-base font-semibold tracking-wide text-center uppercase text-secondary"> All Photos </span>
             <span class="block mt-2 text-3xl font-extrabold leading-8 tracking-tight text-center text-primary sm:text-4xl">All Photos</span>
         </h1>
         <div class="relative mt-12">
             <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 24,
+        amountOfImages: 26,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -930,7 +942,7 @@
                     <button @click="activeImage = 0; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/8663e86e-0061-4a8b-9fed-95c6797451cc.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/b51dfbc7-6d20-4ac8-81c7-bb86c6ee8af3.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -947,7 +959,7 @@
                     <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/96d18f14-c1fb-4b39-8a90-6fdfe2ff5078.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/1067c5e3-efac-48e0-843a-fed91469ebfb.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -964,7 +976,7 @@
                     <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/4fe9193c-eab6-4d59-ba4f-b279eaf08ce6.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/8663e86e-0061-4a8b-9fed-95c6797451cc.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -981,7 +993,7 @@
                     <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/66598ead-1789-40b8-b76d-b7bc758d79f1.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/96d18f14-c1fb-4b39-8a90-6fdfe2ff5078.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -998,7 +1010,7 @@
                     <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/106cfb3f-4a16-4dc0-bfef-9f5e8dfebd4a.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/4fe9193c-eab6-4d59-ba4f-b279eaf08ce6.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1015,7 +1027,7 @@
                     <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/d91df357-40b6-438e-bca0-a375192ce775.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/66598ead-1789-40b8-b76d-b7bc758d79f1.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1032,7 +1044,7 @@
                     <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/35d77519-31e1-49f4-8586-eb2fc37d3d68.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/106cfb3f-4a16-4dc0-bfef-9f5e8dfebd4a.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1049,7 +1061,7 @@
                     <button @click="activeImage = 7; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/ef5103a2-a926-4d41-98df-8e68c356c9b6.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/d91df357-40b6-438e-bca0-a375192ce775.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1066,7 +1078,7 @@
                     <button @click="activeImage = 8; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/e4e93498-f22a-4b5e-9a93-c9765c295f0c.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/35d77519-31e1-49f4-8586-eb2fc37d3d68.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1083,7 +1095,7 @@
                     <button @click="activeImage = 9; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/beb42c4d-ea51-416e-be1d-10ce5bead03a.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/ef5103a2-a926-4d41-98df-8e68c356c9b6.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1100,7 +1112,7 @@
                     <button @click="activeImage = 10; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/63b3a203-c081-42cb-8881-0844bb517bb2.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/e4e93498-f22a-4b5e-9a93-c9765c295f0c.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1117,7 +1129,7 @@
                     <button @click="activeImage = 11; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/3150349d-e550-481f-9089-762226cf2032.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/beb42c4d-ea51-416e-be1d-10ce5bead03a.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1134,7 +1146,7 @@
                     <button @click="activeImage = 12; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a3a601c8-b07f-4965-9385-842ad0b0800d.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/63b3a203-c081-42cb-8881-0844bb517bb2.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1151,7 +1163,7 @@
                     <button @click="activeImage = 13; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/f07a28a8-65da-4787-ad29-8c542dfda97b.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/3150349d-e550-481f-9089-762226cf2032.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1168,7 +1180,7 @@
                     <button @click="activeImage = 14; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/b8708be1-9b4c-4f51-beb0-0b15da275525.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a3a601c8-b07f-4965-9385-842ad0b0800d.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1185,7 +1197,7 @@
                     <button @click="activeImage = 15; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/9d958715-db94-438e-86ab-31f078ea2544.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/f07a28a8-65da-4787-ad29-8c542dfda97b.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1202,7 +1214,7 @@
                     <button @click="activeImage = 16; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/15ddccb1-b9c6-4631-9de4-a307c22bb264.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/b8708be1-9b4c-4f51-beb0-0b15da275525.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1219,7 +1231,7 @@
                     <button @click="activeImage = 17; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/debad364-42f0-4b02-988c-c8d52508e5a4.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/9d958715-db94-438e-86ab-31f078ea2544.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1236,7 +1248,7 @@
                     <button @click="activeImage = 18; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/ddeb3469-7012-46ee-8ece-7076a1b2076a.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/15ddccb1-b9c6-4631-9de4-a307c22bb264.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1253,7 +1265,7 @@
                     <button @click="activeImage = 19; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/894d59e7-18bd-4cf5-a05e-de08b6bcbafb.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/debad364-42f0-4b02-988c-c8d52508e5a4.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1270,7 +1282,7 @@
                     <button @click="activeImage = 20; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/c30d4595-024a-4301-bbdb-afaf42fb41cc.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/ddeb3469-7012-46ee-8ece-7076a1b2076a.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1287,7 +1299,7 @@
                     <button @click="activeImage = 21; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/952309a8-617b-46bb-9b83-7813184878dd.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/894d59e7-18bd-4cf5-a05e-de08b6bcbafb.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1304,7 +1316,7 @@
                     <button @click="activeImage = 22; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/35cf934e-41eb-4204-8dae-b3be678e27c7.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/c30d4595-024a-4301-bbdb-afaf42fb41cc.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                             
                         </div>
 
@@ -1319,6 +1331,40 @@
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 23; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/952309a8-617b-46bb-9b83-7813184878dd.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 24; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/35cf934e-41eb-4204-8dae-b3be678e27c7.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 25; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/51db0216-6ba5-46f1-889c-2f1c1abd3de3.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
@@ -1353,7 +1399,7 @@
                     <div class="relative h-16 px-6 bg-white">
                         <h2 class="sr-only" :id="$id('modal-title')">Modal Gallery</h2>
 
-                        <button @click="galleryModalOpen = false;" class="absolute p-1 transition rounded top-5 right-1 hover:bg-gray-100 focus-visible:ring-2 focus:outline-none ring-primary ring-opacity-75 ring-offset-2">
+                        <button id="close-modal-button" @click="galleryModalOpen = false; handleClick()" class="absolute p-1 transition rounded top-5 right-1 hover:bg-gray-100 focus-visible:ring-2 focus:outline-none ring-primary ring-opacity-75 ring-offset-2">
                             <span class="sr-only">Close modal</span>
                             <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -1378,166 +1424,180 @@
                                 
                                     <li class="flex flex-col" x-show="activeImage === 0">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8663e86e-0061-4a8b-9fed-95c6797451cc.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b51dfbc7-6d20-4ac8-81c7-bb86c6ee8af3.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 1">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/96d18f14-c1fb-4b39-8a90-6fdfe2ff5078.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1067c5e3-efac-48e0-843a-fed91469ebfb.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/4fe9193c-eab6-4d59-ba4f-b279eaf08ce6.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8663e86e-0061-4a8b-9fed-95c6797451cc.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 3">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/66598ead-1789-40b8-b76d-b7bc758d79f1.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/96d18f14-c1fb-4b39-8a90-6fdfe2ff5078.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 4">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/106cfb3f-4a16-4dc0-bfef-9f5e8dfebd4a.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/4fe9193c-eab6-4d59-ba4f-b279eaf08ce6.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 5">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d91df357-40b6-438e-bca0-a375192ce775.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/66598ead-1789-40b8-b76d-b7bc758d79f1.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 6">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/35d77519-31e1-49f4-8586-eb2fc37d3d68.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/106cfb3f-4a16-4dc0-bfef-9f5e8dfebd4a.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 7">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ef5103a2-a926-4d41-98df-8e68c356c9b6.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d91df357-40b6-438e-bca0-a375192ce775.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 8">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e4e93498-f22a-4b5e-9a93-c9765c295f0c.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/35d77519-31e1-49f4-8586-eb2fc37d3d68.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 9">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/beb42c4d-ea51-416e-be1d-10ce5bead03a.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ef5103a2-a926-4d41-98df-8e68c356c9b6.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 10">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/63b3a203-c081-42cb-8881-0844bb517bb2.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e4e93498-f22a-4b5e-9a93-c9765c295f0c.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 11">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/3150349d-e550-481f-9089-762226cf2032.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/beb42c4d-ea51-416e-be1d-10ce5bead03a.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 12">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a3a601c8-b07f-4965-9385-842ad0b0800d.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/63b3a203-c081-42cb-8881-0844bb517bb2.jpeg" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 13">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f07a28a8-65da-4787-ad29-8c542dfda97b.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/3150349d-e550-481f-9089-762226cf2032.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 14">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b8708be1-9b4c-4f51-beb0-0b15da275525.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a3a601c8-b07f-4965-9385-842ad0b0800d.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 15">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9d958715-db94-438e-86ab-31f078ea2544.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f07a28a8-65da-4787-ad29-8c542dfda97b.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 16">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/15ddccb1-b9c6-4631-9de4-a307c22bb264.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b8708be1-9b4c-4f51-beb0-0b15da275525.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 17">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/debad364-42f0-4b02-988c-c8d52508e5a4.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9d958715-db94-438e-86ab-31f078ea2544.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 18">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ddeb3469-7012-46ee-8ece-7076a1b2076a.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/15ddccb1-b9c6-4631-9de4-a307c22bb264.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 19">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/894d59e7-18bd-4cf5-a05e-de08b6bcbafb.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/debad364-42f0-4b02-988c-c8d52508e5a4.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 20">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c30d4595-024a-4301-bbdb-afaf42fb41cc.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ddeb3469-7012-46ee-8ece-7076a1b2076a.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 21">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/952309a8-617b-46bb-9b83-7813184878dd.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/894d59e7-18bd-4cf5-a05e-de08b6bcbafb.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 22">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/35cf934e-41eb-4204-8dae-b3be678e27c7.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c30d4595-024a-4301-bbdb-afaf42fb41cc.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 23">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/952309a8-617b-46bb-9b83-7813184878dd.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 24">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/35cf934e-41eb-4204-8dae-b3be678e27c7.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 25">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/51db0216-6ba5-46f1-889c-2f1c1abd3de3.png" alt="All Photos for Mike&#x27;s Painting in Laurens County, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
@@ -1560,6 +1620,14 @@
     </template>
 </div>
 
+<script>
+    function handleClick() {
+        const videos = document.getElementsByClassName('gallery-modal-video')
+        for (let video of videos) {
+            video.muted = true
+        }
+    }
+</script>
         </div>
     </div>
 </section>
@@ -1601,7 +1669,7 @@
               
               <p class="text-base text-gray-100">
                   Mike&#x27;s Painting<br/>
-                   
+                  
                       Laurens County, GA <br/>
                   
                   +1 478-290-3595
